@@ -4,7 +4,30 @@
 
 body {
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    padding: 80px 300px 80px 300px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
     background-color: #223D04;
-    color: #D9C284;
+    color: white;
+    background-image: url("stockSnapStars.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-family: "Didot", serif;
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 56px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: white;
 }
