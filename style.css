@@ -92,3 +92,49 @@ nav a, nav span {
     line-height: 1.6;
 }
 
+@media (max-width: 768px) {
+    body {
+        background-size: auto 280px;
+    
+    }
+
+    .hero {
+        height: 280px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px 24px;
+        padding: 18px;
+    }
+
+    nav a,
+    nav span {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .writing-grid {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        margin: 50px auto;
+    }
+
+    .writing-card {
+        margin-bottom: 0;
+    }
+
+    #about {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}
+
